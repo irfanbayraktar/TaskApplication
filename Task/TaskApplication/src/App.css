@@ -1,0 +1,106 @@
+.body{
+    background-image: url("../../JiraApplication/src/img/white-wall.jpg");
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.task-create{
+    width: 450px;
+
+}
+
+.task-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.task-label{
+    margin: 10px 0px;
+}
+
+.task-input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 12px 0 rgba(0, 0, 0, 0.19);
+}
+
+.task-button{
+    border: 1px solid green;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 12px 0 rgba(0, 0, 0, 0.19);
+}
+
+.update-button{
+    background-color: blueviolet;
+}
+
+.task-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.task-show{
+    border: 1px solid green;
+    border-radius: 30px;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.task-scroll{
+    display: flex;
+    overflow-y: auto;
+    height: 400px;
+    margin-right: -15px;
+    transform-style: preserve-3d;
+}
+
+.task-update{
+    width: 300px;
+}
+
+.task-title{
+    margin-bottom: 5px;
+}
+
+.task-delete{
+    padding: 5px;
+    font-size: 15px;
+    width: 60px;
+    border: none;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    margin-right: 10px; 
+    opacity: 0.8;
+}
+
+.task-edit{
+    padding: 5px;
+    font-size: 15px;
+    width: 85px;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    margin-right: 10px; 
+    opacity: 0.8;
+}
